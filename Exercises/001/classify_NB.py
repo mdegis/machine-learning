@@ -6,8 +6,8 @@ def classify(features_train, labels_train):
     return clf.fit(features_train, labels_train)
     
 
-def NBAccuracy(features_train, labels_train, features_test, labels_test):
-    """ compute the accuracy of your Naive Bayes classifier """
+def NB_accuracy(features_train, labels_train, features_test, labels_test):
+    """ compute the accuracy of your Naive Bayes classifier as a seperate method """
 
     clf = GaussianNB()
     clf.fit(features_train, labels_train)
