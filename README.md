@@ -24,3 +24,9 @@ Before try to run any of the assignments, please run 'startup.py' in 'tools' dir
 
 * Naive Bayes Classifier is used to identify emails by their authors. 
 * Also time performance and accuracy are calculated.
+
+### Lesson 2: SVM
+
+In this mini-project, we’ll tackle the exact same email author ID problem as the Naive Bayes mini-project, but now with an SVM. What we find will help clarify some of the practical differences between the two algorithms. This project also gives us a chance to play around with parameters a lot more than Naive Bayes did, so we will do that too.
+
+Read the comments in the code, for more information.
