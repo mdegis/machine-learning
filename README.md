@@ -14,7 +14,7 @@ Decide whether car should go fast or slow depending on bumpiness level of road.
 
 ### 002:
 
-* Same thing done in exercises 01 however, this time with SVM and linear kernal.
+* Same thing in exercises 01 is done again however, this time with SVM and linear kernal.
 
 ## Project:
 
