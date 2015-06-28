@@ -14,9 +14,9 @@ Decide whether car should go fast or slow depending on bumpiness level of road.
 
 ### 002:
 
-* Same thing in exercises 01 is done again however, this time with SVM and linear kernal.
+* Same thing in exercises 01 is done again however, this time with SVM and linear kernel.
 
-## Project:
+## Mini-Projects:
 
 Before try to run any of the assignments, please run 'startup.py' in 'tools' directory. This will automatically install e-mail data set and extract it (which is about 423 MB in tgz, 1.4 GB when decompressed).
 
