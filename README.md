@@ -18,4 +18,5 @@ Before try to run any of the assignments, please run 'startup.py' in 'tools' dir
 
 ### Lesson 1: Naive Bayes
 
-Naive Bayes Classifier is used to identify emails by their authors. Also time performance and accuracy are calculated.
+* Naive Bayes Classifier is used to identify emails by their authors. 
+* Also time performance and accuracy are calculated.
