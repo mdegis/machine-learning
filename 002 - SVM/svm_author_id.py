@@ -56,12 +56,12 @@ t0 = time()
 		Sliced data set:
 		training time: 0.098 s
 		predict time: 0.833 s
-	    SVM accuracy: 0.89249146757679176
+		accuracy: 0.89249146757679176
 
-	    Full sized data set:
-	    training time: 118.729 s
+		Full sized data set:
+		training time: 118.729 s
 		predict time: 13.075 s
-	    SVM accuracy: 0.99089874857792948 #FTW
+		accuracy: 0.99089874857792948 #FTW
 
 """
 # comment out those two lines if you want to see original one
