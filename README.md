@@ -12,6 +12,10 @@ Decide whether car should go fast or slow depending on bumpiness level of road.
 * Plot data with decision line by using Naive Bayes, and save it in 'test.png'
 * Calculate accuracy (sklearn build-in)
 
+### 002:
+
+* Same thing done in exercises 01 however, this time with SVM and linear kernal.
+
 ## Project:
 
 Before try to run any of the assignments, please run 'startup.py' in 'tools' directory. This will automatically install e-mail data set and extract it (which is about 423 MB in tgz, 1.4 GB when decompressed).
