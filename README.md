@@ -38,3 +38,21 @@ Read the comments in the code, for more information.
 ### Lesson 3: Decision Tree
 
 In this project we'll be tackling the same project that we've done with our last two supervised classification algorithms. We're trying to understand who wrote an email based on the word content of that email. This time we'll be using a decision tree. We'll also dig into the features that we use a little bit more. This'll be a dedicated topic in the latter part of the class. What features give you the most effective, the most accurate supervised classification algorithm?
+
+Read the comments in the code, for more information.
+
+### Lesson 4: AdaBoost (Adaptive Boosting), kNN and Random Forrest
+
+* AdaBoost:
+
+While every learning algorithm will tend to suit some problem types better than others, and will typically have many different parameters and configurations to be adjusted before achieving optimal performance on a dataset, AdaBoost (with decision trees as the weak learners) is often referred to as the best out-of-the-box classifier. When used with decision tree learning, information gathered at each stage of the AdaBoost algorithm about the relative 'hardness' of each training sample is fed into the tree growing algorithm such that later trees tend to focus on harder to classify examples.
+
+A great article about AdaBoost can be found at https://www.cs.princeton.edu/~schapire/papers/explaining-adaboost.pdf
+
+* k Nearest Neighbors: 
+
+Neighbors-based classification is a type of instance-based learning or non-generalizing learning; it does not attempt to construct a general internal model, but simply stores instances of the training data. Classification is computed from a simple majority vote of the nearest neighbors of each point: a query point is assigned the data class which has the most representatives within the nearest neighbors of the point.
+
+* Random Forrest:
+
+The Random Forrest (ensemble learning method [like AdaBoost] for classification, regression) method combines Breiman's "bagging" idea and the random selection of features, introduced independently by Ho and Amit and Geman in order to construct a collection of decision trees with controlled variance. The selection of a random subset of features is an example of the random subspace method, which, in Ho's formulation, is a way to implement classification proposed by Eugene Kleinberg.

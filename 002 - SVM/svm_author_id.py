@@ -29,8 +29,7 @@ t0 = time()
 
 	One way to speed up an algorithm is to train it on a smaller training 
 	dataset. The tradeoff is that the accuracy almost always goes down when 
-	you do this. Let's explore this more concretely: add in the following two 
-	lines immediately before training your classifier. 
+	you do this. Let's explore this more concretely:
 	
 	original (linear):
 	training time: 188.996 s            
