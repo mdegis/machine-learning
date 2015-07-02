@@ -32,11 +32,15 @@ print "Score of train set: ", reg.score(ages_train, net_worths_train)
 print "Score of test set: ", reg.score(ages_test, net_worths_test)
 
 try:
+    plt.subplot(211)
+    plt.title("before outlier removal")
     plt.plot(ages, reg.predict(ages), color="r")
+    plt.xlabel("ages")
+    plt.ylabel("net worths")
 except NameError:
     pass
 plt.scatter(ages, net_worths)
-plt.show()
+
 
 # identify and remove the most outlier-y points
 cleaned_data = []
@@ -60,6 +64,9 @@ if len(cleaned_data) > 0:
         print "Intercept: ", reg.intercept_
         print "Score of train set: ", reg.score(ages_train, net_worths_train)
         print "Score of test set: ", reg.score(ages_test, net_worths_test)
+        
+        plt.subplot(212)
+        plt.title("after outlier removal")
         plt.plot(ages, reg.predict(ages), color="green")
     except NameError:
         print "you don't seem to have regression imported/created,"
@@ -68,6 +75,8 @@ if len(cleaned_data) > 0:
     plt.scatter(ages, net_worths)
     plt.xlabel("ages")
     plt.ylabel("net worths")
+    plt.tight_layout()
+    plt.savefig("outlier_fig.png")
     plt.show()
 
 else:
