@@ -62,3 +62,9 @@ The Random Forrest (ensemble learning method [like AdaBoost] for classification,
 The Enron fraud is a big, messy and totally fascinating story about corporate malfeasance of nearly every imaginable type. The Enron email and financial datasets are also big, messy treasure troves of information, which become much more useful once you know your way around them a bit. We’ve combined the email and finance data into a single dataset, which you’ll explore in this mini-project.
 
 The aggregated Enron email + financial dataset is stored in a dictionary, where each key in the dictionary is a person’s name and the value is a dictionary containing all the features of that person. The email + finance (E+F) data dictionary is stored as a pickle file, which is a handy way to store and load python objects directly. 
+
+### Lesson 6: Regression
+
+In this project, we will use regression to predict financial data for Enron employees and associates. Once we know some financial data about an employee, like their salary, what would you predict for the size of their bonus?
+
+Read the comments in the code, for more information.
