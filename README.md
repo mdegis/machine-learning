@@ -68,3 +68,9 @@ The aggregated Enron email + financial dataset is stored in a dictionary, where 
 In this project, we will use regression to predict financial data for Enron employees and associates. Once we know some financial data about an employee, like their salary, what would you predict for the size of their bonus?
 
 Read the comments in the code, for more information.
+
+### Lesson 7: Outliers
+
+Having large outliers can have a big effect on your regression result. So in the first part of this mini project, you're going to implement the algorithm that is you take the 10% or so of data points that have the largest residuals, relative to your regression. You remove them, and then you refit the regression, and you see how the result changes.
+
+The second thing we'll do is take a closer at the Enron data. This time with a particular eye towards outliers. You'll find very quickly that there are some data points that fall far outside of the general pattern.
