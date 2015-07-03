@@ -1,8 +1,10 @@
 #!/usr/bin/python
 
+import sys
+sys.path.append("../tools/")
+from class_vis import prettyPicture
 import matplotlib.pyplot as plt
 from prep_terrain_data import makeTerrainData
-from class_vis import prettyPicture
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.metrics import accuracy_score
 
@@ -33,6 +35,6 @@ acc = accuracy_score(pred, labels_test)
 print "Decision Tree accuracy: %r" % acc
 
 try:
-    prettyPicture(clf, features_test, labels_test, name="ada_boost.png")
+    prettyPicture(clf, features_test, labels_test, f_name="ada_boost.png")
 except NameError:
     pass

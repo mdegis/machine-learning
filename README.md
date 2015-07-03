@@ -4,22 +4,6 @@ This repository contains some assignments and exercises of Machine Learning cour
 
 Please read the license file. I do **NOT** take any responsibility in case of plagiarism. It's **ONLY** educational purpose.
 
-## Exercises:
-### 001:
-
-Decide whether car should go fast or slow depending on bumpiness level of road.
-
-* Plot data with decision line by using Naive Bayes, and save it in 'test.png'
-* Calculate accuracy (sklearn build-in)
-
-### 002:
-
-* Same thing in exercises 01 is done again however, this time with SVM and linear kernel.
-
-### 003:
-
-* Same thing in exercises 01 is done again however, this time with Decision Tree.
-
 ## Mini-Projects:
 
 Before try to run any of the assignments, please run 'startup.py' in 'tools' directory. This will automatically install e-mail data set and extract it (which is about 423 MB in tgz, 1.4 GB when decompressed).
@@ -28,6 +12,9 @@ Before try to run any of the assignments, please run 'startup.py' in 'tools' dir
 
 * Naive Bayes Classifier is used to identify emails by their authors. 
 * Also time performance and accuracy are calculated.
+* Decide whether car should go fast or slow depending on bumpiness level of road.
+
+![plot](/001 - Naive Bayes Classifier/exercise/bayes.png)
 
 ### Lesson 2: SVM
 
@@ -35,11 +22,17 @@ In this mini-project, we’ll tackle the exact same email author ID problem as t
 
 Read the comments in the code, for more information.
 
+![plot](/002 - SVM/exercise/svm_lin.png)
+
 ### Lesson 3: Decision Tree
 
 In this project we'll be tackling the same project that we've done with our last two supervised classification algorithms. We're trying to understand who wrote an email based on the word content of that email. This time we'll be using a decision tree. We'll also dig into the features that we use a little bit more. This'll be a dedicated topic in the latter part of the class. What features give you the most effective, the most accurate supervised classification algorithm?
 
 Read the comments in the code, for more information.
+
+![plot](/003 - Decision Tree/exercise/overfitted.png)
+![plot](/003 - Decision Tree/exercise/dec_tree.png)
+
 
 ### Lesson 4: AdaBoost (Adaptive Boosting), kNN and Random Forrest
 
@@ -49,13 +42,21 @@ While every learning algorithm will tend to suit some problem types better than 
 
 A great article about AdaBoost can be found at https://www.cs.princeton.edu/~schapire/papers/explaining-adaboost.pdf
 
+![plot](/004 - AdaBoost + kNN +  Random Forrest/ada_boost.png)
+
 * k Nearest Neighbors: 
 
 Neighbors-based classification is a type of instance-based learning or non-generalizing learning; it does not attempt to construct a general internal model, but simply stores instances of the training data. Classification is computed from a simple majority vote of the nearest neighbors of each point: a query point is assigned the data class which has the most representatives within the nearest neighbors of the point.
 
+![plot](/004 - AdaBoost + kNN +  Random Forrest/knn.png)
+
+
 * Random Forrest:
 
 The Random Forrest (ensemble learning method [like AdaBoost] for classification, regression) method combines Breiman's "bagging" idea and the random selection of features, introduced independently by Ho and Amit and Geman in order to construct a collection of decision trees with controlled variance. The selection of a random subset of features is an example of the random subspace method, which, in Ho's formulation, is a way to implement classification proposed by Eugene Kleinberg.
+
+![plot](/004 - AdaBoost + kNN +  Random Forrest/random_forest.png)
+
 
 ### Lesson 5: Dataset and Questions
 
@@ -69,8 +70,13 @@ In this project, we will use regression to predict financial data for Enron empl
 
 Read the comments in the code, for more information.
 
+![plot](/006 - Regression/regression.png)
+
+
 ### Lesson 7: Outliers
 
 Having large outliers can have a big effect on your regression result. So in the first part of this mini project, you're going to implement the algorithm that is you take the 10% or so of data points that have the largest residuals, relative to your regression. You remove them, and then you refit the regression, and you see how the result changes.
 
 The second thing we'll do is take a closer at the Enron data. This time with a particular eye towards outliers. You'll find very quickly that there are some data points that fall far outside of the general pattern.
+
+![plot](/007 - Outliers/outlier_fig.png)

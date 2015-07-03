@@ -13,13 +13,14 @@
 import sys
 from time import time
 sys.path.append("../tools/")
+import matplotlib.pyplot as plt
 from email_preprocess import preprocess
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-### features_train and features_test are the features for the training
-### and testing datasets, respectively
-### labels_train and labels_test are the corresponding item labels
+# features_train and features_test are the features for the training
+# and testing datasets, respectively
+# labels_train and labels_test are the corresponding item labels
 features_train, features_test, labels_train, labels_test = preprocess()
 
 # clf = SVC(kernel="linear")
@@ -91,14 +92,14 @@ print "10th: %r, 26th: %r, 50th: %r" % (pred[10], pred[26], pred[50])
 print "No. of predicted to be in the 'Chris'(1): %r" % sum(pred)
 
 """
-	Hopefully it’s becoming clearer what they told us about the Naive Bayes -- is 
-	great for text -- it’s faster and generally gives better performance than an SVM 
+	Hopefully it's becoming clearer what they told us about the Naive Bayes -- is 
+	great for text -- it's faster and generally gives better performance than an SVM 
 	for this particular problem. Of course, there are plenty of other problems where 
-	an SVM might work better. Knowing which one to try when you’re tackling a problem 
+	an SVM might work better. Knowing which one to try when you're tackling a problem 
 	for the first time is part of the art and science of machine learning. In addition 
 	to picking your algorithm, depending on which one you try, there are parameter 
 	tunes to worry about as well, and the possibility of overfitting (especially if 
-	you don’t have lots of training data).
+	you don't have lots of training data).
 
 	Our general suggestion is to try a few different algorithms for each problem. 
 	Tuning the parameters can be a lot of work, but just sit tight for now--toward 
