@@ -97,7 +97,7 @@ Great online tool to visualize k-Means Cluster algorithm can be founded at http:
 
 In the mini-project on K-means clustering, you clustered the data points. And then at the end, we sort of gestured towards feature scaling as something that could change the output of that clustering algorithm. In this mini-project, you'll actually deploy the feature scaling yourself. So you'll take the code from the K-means clustering algorithm and add in the feature scaling and then in doing so, you'll be recreating the steps that we took to make those new clusters.
 
-`
+```
 salary = []
 for i in data_dict:
     if (data_dict[i][feature_1]=='NaN'):
@@ -116,4 +116,4 @@ salary_ = salary_.astype(float)
 scaler = MinMaxScaler()
 rescaled_salary = scaler.fit_transform(salary_)
 print rescaled_salary
-`
+```
