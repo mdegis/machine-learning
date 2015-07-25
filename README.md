@@ -82,3 +82,13 @@ Having large outliers can have a big effect on your regression result. So in the
 The second thing we'll do is take a closer at the Enron data. This time with a particular eye towards outliers. You'll find very quickly that there are some data points that fall far outside of the general pattern.
 
 ![plot](/007 - Outliers/outlier_fig.png)
+
+### Lesson 8: Unsupervised Learning: K-Means Clustering
+
+In this project, we'll apply k-means clustering to our Enron financial data. Our final goal, of course, is to identify persons of interest; since we have labeled data, this is not a question that particularly calls for an unsupervised approach like k-means clustering.
+
+Nonetheless, you'll get some hands-on practice with k-means in this project, and play around with feature scaling, which will give you a sneak preview of the next lesson's material.
+
+Great online tool to visualize k-Means Cluster algorithm can be founded at http://www.naftaliharris.com/blog/visualizing-k-means-clustering/
+
+![plot](/008 - K_Means/k_means.png)
