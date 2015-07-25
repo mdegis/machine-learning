@@ -83,7 +83,7 @@ The second thing we'll do is take a closer at the Enron data. This time with a p
 
 ![plot](/007 - Outliers/outlier_fig.png)
 
-### Lesson 8: Unsupervised Learning: K-Means Clustering
+### Lesson 8: Unsupervised Learning (K-Means Clustering)
 
 In this project, we'll apply k-means clustering to our Enron financial data. Our final goal, of course, is to identify persons of interest; since we have labeled data, this is not a question that particularly calls for an unsupervised approach like k-means clustering.
 
@@ -92,3 +92,28 @@ Nonetheless, you'll get some hands-on practice with k-means in this project, and
 Great online tool to visualize k-Means Cluster algorithm can be founded at http://www.naftaliharris.com/blog/visualizing-k-means-clustering/
 
 ![plot](/008 - K_Means/k_means.png)
+
+### Lesson 9: Feature Scaling
+
+In the mini-project on K-means clustering, you clustered the data points. And then at the end, we sort of gestured towards feature scaling as something that could change the output of that clustering algorithm. In this mini-project, you'll actually deploy the feature scaling yourself. So you'll take the code from the K-means clustering algorithm and add in the feature scaling and then in doing so, you'll be recreating the steps that we took to make those new clusters.
+
+`
+salary = []
+for i in data_dict:
+    if (data_dict[i][feature_1]=='NaN'):
+        salary.append(0.0)
+        # pass
+    else:    
+        salary.append(float(data_dict[i][feature_1]))
+ma= max(salary)        
+mi=min(salary)
+print "salary maximum: ", ma, " minimum: ", mi
+# maximum:  1111258.0  minimum:  477.0 comment out line 121 to get rid of zeroes.
+print float(200000-mi)/(ma-mi)
+
+salary_ = numpy.array(salary)
+salary_ = salary_.astype(float)
+scaler = MinMaxScaler()
+rescaled_salary = scaler.fit_transform(salary_)
+print rescaled_salary
+`
