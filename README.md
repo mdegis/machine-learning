@@ -123,3 +123,5 @@ print rescaled_salary
 In the beginning of this class, you identified emails by their authors using a number of supervised classification algorithms. In those projects, we handled the preprocessing for you, transforming the input emails into a TfIdf so they could be fed into the algorithms. Now you will construct your own version of that preprocessing step, so that you are going directly from raw data to processed features.
 
 You will be given two text files: one contains the locations of all the emails from Sara, the other has emails from Chris. You will also have access to the parseOutText() function, which accepts an opened email as an argument and returns a string containing all the (stemmed) words in the email.
+
+Read the comments in the code, for more information ([This code](/010 - Text Learning/vectorize_text.py) contains some cool examples for python).
