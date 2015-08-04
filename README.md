@@ -124,4 +124,17 @@ In the beginning of this class, you identified emails by their authors using a n
 
 You will be given two text files: one contains the locations of all the emails from Sara, the other has emails from Chris. You will also have access to the parseOutText() function, which accepts an opened email as an argument and returns a string containing all the (stemmed) words in the email.
 
-Read the comments in the code, for more information ([This code](/010 - Text Learning/vectorize_text.py) contains some cool examples for python).
+Read the comments in the code, for more information ([This code](/010 - Text Learning/vectorize_text.py) contains some cool examples).
+
+### Lesson 11: Feature Selection
+
+In one of the earlier videos in this lesson we told you about that there was a word that was effectively serving as a signature on the e-mails and we didn't initially realize it. Now, the mark of a good machine learner doesn't mean that they never make any mistakes or that their features are always perfect. It means that they're on the lookout for ways to check this and to figure out if there is a bug in there that they need to go in and fix.
+
+So in this case it would mean that there's a type of signature word, that we would need to go in and remove in order for us to, to feel like we were being fair in our supervised classification. We will be working on a problem that arose in preparing Chris and Sara’s email for the author identification project; it had to do with a feature that was a little too powerful (effectively acting like a signature, which gives an arguably unfair advantage to an algorithm). You’ll work through that discovery process here.
+
+Read the comments in the [code](/011 - Feature Selection/find_signature.py), for more information.
+
+
+
+
+
