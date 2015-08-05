@@ -136,7 +136,7 @@ def plot_gallery(images, titles, h, w, n_row=3, n_col=4):
 def title(y_pred, y_test, target_names, i):
     pred_name = target_names[y_pred[i]].rsplit(' ', 1)[-1]
     true_name = target_names[y_test[i]].rsplit(' ', 1)[-1]
-    return 'predicted: %s\ntrue:      %s' % (pred_name, true_name)
+    return 'predicted: %s\ntrue:       %s' % (pred_name, true_name)
 
 prediction_titles = [title(y_pred, y_test, target_names, i)
                          for i in range(y_pred.shape[0])]
