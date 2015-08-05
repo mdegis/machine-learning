@@ -134,7 +134,62 @@ So in this case it would mean that there's a type of signature word, that we wou
 
 Read the comments in the [code](/011 - Feature Selection/find_signature.py), for more information.
 
+### Lesson 12: Principal Component Analysis
+
+PCA example by Eigenfaces (face recognition).
+![plot](/012 - PCA/eigenfaces.png)
+
+```
+===================================================
+Faces recognition example using eigenfaces and SVMs
+===================================================
+
+The dataset used in this example is a preprocessed excerpt of the
+"Labeled Faces in the Wild", aka LFW_:
+
+  http://vis-www.cs.umass.edu/lfw/lfw-funneled.tgz (233MB)
+
+  .. _LFW: http://vis-www.cs.umass.edu/lfw/
+
+  original source: http://scikit-learn.org/stable/auto_examples/applications/face_recognition.html
 
 
+2015-08-05 22:25:02,927 Loading LFW people faces from /home/mdegis/scikit_learn_data/lfw_home
+Total dataset size:
+n_samples: 1288
+n_features: 1850
+n_classes: 7
+Extracting the top 150 eigenfaces from 966 faces
+done in 4.846s
+Projecting the input data on the eigenfaces orthonormal basis
+done in 0.372s
+Fitting the classifier to the training set
+done in 18.366s
+Best estimator found by grid search:
+SVC(C=1000.0, cache_size=200, class_weight='auto', coef0=0.0, degree=3,
+  gamma=0.005, kernel='rbf', max_iter=-1, probability=False,
+  random_state=None, shrinking=True, tol=0.001, verbose=False)
+Predicting the people names on the testing set
+done in 0.061s
+                   precision    recall  f1-score   support
 
+     Ariel Sharon       1.00      0.62      0.76        13
+     Colin Powell       0.78      0.82      0.80        60
+  Donald Rumsfeld       0.87      0.74      0.80        27
+    George W Bush       0.82      0.92      0.87       146
+Gerhard Schroeder       0.90      0.76      0.83        25
+      Hugo Chavez       1.00      0.53      0.70        15
+       Tony Blair       0.77      0.75      0.76        36
 
+      avg / total       0.83      0.83      0.82       322
+
+[[  8   2   0   3   0   0   0]
+ [  0  49   2   6   0   0   3]
+ [  0   0  20   5   0   0   2]
+ [  0  11   0 135   0   0   0]
+ [  0   0   0   4  19   0   2]
+ [  0   0   0   5   1   8   1]
+ [  0   1   1   6   1   0  27]]
+```
+
+![plot](/012 - PCA/pred.png)
