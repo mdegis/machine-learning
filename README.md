@@ -217,3 +217,9 @@ features_train, features_test, labels_train, labels_test = cross_validation.trai
 clf.fit(features_train, labels_train)
 print clf.score(features_test, labels_test) # 0.724137931034
 ```
+
+### Lesson 14: Evaluation Metrics
+
+In the last lesson, you created your first person of interest identifier algorithm, and you set up a training and testing framework so that you could assess the accuracy of that model.
+
+Now that you know much more about evaluation metrics, we're going to have you deploy those evaluation metrics on the framework that you've set up in the last lesson. And so, by the time you get to the final project, the main thing that you'll have to think about will be the features that you want to use, the algorithm that you want to use, and any parameter tunes. You'll already have the training and testing, and the evaluation matrix all set up.
