@@ -14,7 +14,7 @@ Before try to run any of the assignments, please run 'startup.py' in 'tools' dir
 * Also time performance and accuracy are calculated.
 * Decide whether car should go fast or slow depending on bumpiness level of road.
 
-![plot](/001 - Naive Bayes Classifier/exercise/bayes.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/001%20-%20Naive%20Bayes%20Classifier/exercise/bayes.png)
 
 ### Lesson 2: SVM
 
@@ -22,7 +22,7 @@ In this mini-project, we’ll tackle the exact same email author ID problem as t
 
 Read the comments in the code, for more information.
 
-![plot](/002 - SVM/exercise/svm_lin.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/002%20-%20SVM/exercise/svm_lin.pngg)
 
 ### Lesson 3: Decision Tree
 
@@ -31,9 +31,9 @@ In this project we'll be tackling the same project that we've done with our last
 Read the comments in the code, for more information.
 
 Overfitted example:
-![plot](/003 - Decision Tree/exercise/overfitted.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/003%20-%20Decision%20Tree/exercise/overfitted.png)
 Fixed:
-![plot](/003 - Decision Tree/exercise/dec_tree.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/003%20-%20Decision%20Tree/exercise/dec_tree.png)
 
 
 ### Lesson 4: AdaBoost (Adaptive Boosting), kNN and Random Forrest
@@ -44,20 +44,20 @@ While every learning algorithm will tend to suit some problem types better than 
 
 A great article about AdaBoost can be found at https://www.cs.princeton.edu/~schapire/papers/explaining-adaboost.pdf
 
-![plot](/004 - AdaBoost + kNN +  Random Forrest/ada_boost.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/004%20-%20AdaBoost%20%2B%20kNN%20%2B%20%20Random%20Forrest/ada_boost.png)
 
 * **k Nearest Neighbors**: 
 
 Neighbors-based classification is a type of instance-based learning or non-generalizing learning; it does not attempt to construct a general internal model, but simply stores instances of the training data. Classification is computed from a simple majority vote of the nearest neighbors of each point: a query point is assigned the data class which has the most representatives within the nearest neighbors of the point.
 
-![plot](/004 - AdaBoost + kNN +  Random Forrest/knn.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/004%20-%20AdaBoost%20%2B%20kNN%20%2B%20%20Random%20Forrest/knn.png)
 
 
 * **Random Forrest**:
 
 The Random Forrest (ensemble learning method [like AdaBoost] for classification, regression) method combines Breiman's "bagging" idea and the random selection of features, introduced independently by Ho and Amit and Geman in order to construct a collection of decision trees with controlled variance. The selection of a random subset of features is an example of the random subspace method, which, in Ho's formulation, is a way to implement classification proposed by Eugene Kleinberg.
 
-![plot](/004 - AdaBoost + kNN +  Random Forrest/random_forest.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/004%20-%20AdaBoost%20%2B%20kNN%20%2B%20%20Random%20Forrest/random_forest.png)
 
 
 ### Lesson 5: Dataset and Questions
@@ -72,7 +72,7 @@ In this project, we will use regression to predict financial data for Enron empl
 
 Read the comments in the code, for more information.
 
-![plot](/006 - Regression/regression.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/006%20-%20Regression/regression.png)
 
 
 ### Lesson 7: Outliers
@@ -81,7 +81,7 @@ Having large outliers can have a big effect on your regression result. So in the
 
 The second thing we'll do is take a closer at the Enron data. This time with a particular eye towards outliers. You'll find very quickly that there are some data points that fall far outside of the general pattern.
 
-![plot](/007 - Outliers/outlier_fig.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/007%20-%20Outliers/outlier_fig.png)
 
 ### Lesson 8: Unsupervised Learning (K-Means Clustering)
 
@@ -91,7 +91,7 @@ Nonetheless, you'll get some hands-on practice with k-means in this project, and
 
 Great online tool to visualize k-Means Cluster algorithm can be founded at http://www.naftaliharris.com/blog/visualizing-k-means-clustering/
 
-![plot](/008 - K_Means/k_means.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/008%20-%20K_Means/k_means.png)
 
 ### Lesson 9: Feature Scaling
 
@@ -137,7 +137,7 @@ Read the comments in the [code](/011 - Feature Selection/find_signature.py), for
 ### Lesson 12: Principal Component Analysis
 
 PCA example by Eigenfaces (face recognition).
-![plot](/012 - PCA/eigenfaces.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/012%20-%20PCA/eigenfaces.png)
 
 ```
 ===================================================
@@ -192,7 +192,7 @@ Gerhard Schroeder       0.90      0.76      0.83        25
  [  0   1   1   6   1   0  27]]
 ```
 
-![plot](/012 - PCA/pred.png)
+![plot](https://github.com/mdegis/machine-learning/raw/master/012%20-%20PCA/pred.png)
 
 ### 013 - Validation
 
