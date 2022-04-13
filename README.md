@@ -22,7 +22,7 @@ In this mini-project, we’ll tackle the exact same email author ID problem as t
 
 Read the comments in the code, for more information.
 
-![plot](https://github.com/mdegis/machine-learning/raw/master/002%20-%20SVM/exercise/svm_lin.pngg)
+![plot](https://github.com/mdegis/machine-learning/raw/master/002%20-%20SVM/exercise/svm_lin.png)
 
 ### Lesson 3: Decision Tree
 
